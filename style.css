@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Ul A * -  São configurações basicas de reset de configuração de css*/
+
+body {
+    background: #1F1517 ;
+    color: #ffff;
+}
+
+nav{
+    max-width: 100%;
+    margin: auto;
+    padding: 0.75rem/*Horizontal*/ 2rem/*Vertical*/;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.logo{
+    font-family: Teko;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+
+}
+
+.menuheader{
+    font-size: 1.40rem;
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 0.7rem;
+    color: #fff2e780;
+}
+
+.github{
+    color: #fff2e7;
+    font-weight: 600;
+    font-size: 1.40rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal{
+    background: #181012;
+}
+
+.hero{
+   
+
+    max-width: 100%;
+    height: 89vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+
+    padding: 0rem 2rem;
+    margin: auto;
+
+    overflow: clip;
+}
+
+.hero-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    
+}
+
+.destaque{
+    font-family: epilogue;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  
+}
+
+.hr{
+    border-color: #a45a49;
+}
+
+.hero-subtitulo{
+    color: #c7bab3;
+    font-family: Inter;
+    font-size: 1.50rem;
+    font-weight: 400;
+}
+
+.marrom{
+    color: #a45a49;
+}
+
+.amarelo{
+    color: #e7a80e;
+}
+
+.h1{
+    font-family: Montserrat;
+    font-size:3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero-img-container{
+    column-count: 4;
+    column-gap: 1rem;
+    margin: -1rem;
+
+}
+
+.hero-img-container > figure > img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+
+
+.receitas{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 100%;
+    padding: 1rem 0.5rem;
+    margin: auto;
+}
+.container-rc{
+    max-width: 100%;
+ 
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0rem 12rem;
+}
+
+.receitas-cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.receitas-titulo{
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff2ef;
+}
+
+.receitas-subtitulo{
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #c7bab3;
+}
+
+
+.receitas-card{
+    background: #241A1c;
+    padding: 1.4rem;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 25rem;
+    margin-top: 2rem;
+}
+
+.receitas-card-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.receitas-card-cabecalho-detalhes{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.receita-titulo {
+    color: #fff2e7;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.receita-avaliacao {
+    color: #756a67;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.receita-descricao {
+    color: #c7bab3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.receita-autor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+.receita-autor > img {
+    border-radius: 20rem;
+    width: 1.5rem;
+}
+.receita-autor-nome{
+    color: #c7bab3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 60;
+}
+.footer {
+   
+    padding: 0.75rem/*Horizontal*/ 2rem/*Vertical*/;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background: #23181a;
+}
+
+.footer-copy {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff2e7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
